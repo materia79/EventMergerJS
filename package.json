@@ -1,0 +1,33 @@
+{
+  "name": "eventmergerjs",
+  "version": "1.0.0",
+  "description": "Merge/coalesce bursts of logically identical events.",
+  "keywords": [
+    "event",
+    "coalesce",
+    "debounce",
+    "buffer",
+    "merge"
+  ],
+  "homepage": "https://github.com/materia79/EventMergerJS#readme",
+  "bugs": {
+    "url": "https://github.com/materia79/EventMergerJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/materia79/EventMergerJS.git"
+  },
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "author": "Simon <simon@istaria.de>",
+  "type": "commonjs",
+  "main": "EventMerger.js",
+  "exports": "./EventMerger.js",
+  "scripts": {
+    "test": "node -e \"console.log('No tests are included in this package.', 'Try the Demo at: <https://materia79.github.io/EventMergerJS/demo.html>')\""
+  },
+  "files": [
+    "EventMerger.js",
+    "README.md",
+    "LICENSE.md"
+  ]
+}

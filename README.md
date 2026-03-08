@@ -5,7 +5,6 @@
 
   Typical use case: a client produces a lot of small updates (e.g. position changes, damage ticks, slider changes) and you only want to send/handle them at a limited rate while still knowing how many were merged together.
 
-
   Features
   --------
 
@@ -15,6 +14,11 @@
   - Numeric aggregation: optional second argument can be a number that is summed up (`stack`) for all suppressed events.
   - Duplicate count: know how many events were merged (`dup`).
 
+  Demo
+  ----
+
+  Try the Demo at: <https://materia79.github.io/EventMergerJS/demo.html>
+  
   License
   -------
   - EventMergerJS is released under the PolyForm Noncommercial License 1.0.0.
@@ -108,24 +112,6 @@
   // After buffering, damageHandler will be called once for "player-123"
   // with totalDamage = 35 and this.queue.dup = 3
   ```
-
-
-  Testing
-  -------
-
-  This repository contains a small script [test_eventMerger.js](test_eventMerger.js) that exercises the behavior of EventMerger with three event streams and logs the timing and aggregation results.
-
-  To run the test, use Node:
-
-  ```bash
-  node test_eventMerger.js
-  ```
-
-  The script will:
-
-  - Create an EventMerger with a `minBufferTimeMs` of 75 and `maxBufferTimeMs` of 200.
-  - Add multiple events for two different IDs (`event1` and `event2`) at different intervals and one single `event3`.
-  - Log when each event is added and when the merged handler calls occur, along with `dup` and `stack` values, and print an explanation of the expected behavior.
 
   Custom error handler
   --------------------
