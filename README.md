@@ -21,9 +21,7 @@
   
   License
   -------
-  - EventMergerJS is released under the PolyForm Noncommercial License 1.0.0.
-  - You may use, modify, and share the software for **noncommercial** purposes; **commercial** use requires a separate license from the author.
-  - See the full license text in [LICENSE.md](LICENSE.md) or at <https://polyformproject.org/licenses/noncommercial/1.0.0>.
+  MIT License. See [LICENSE.md](LICENSE.md) for full details.
 
   Installation
   ------------

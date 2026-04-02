@@ -1,3 +1,9 @@
+/*
+ * EventMergerJS
+ * Copyright (c) 2024 Simon
+ * Licensed under the MIT License - see LICENSE.md for details
+ */
+
 class EventMerger {
   constructor(handler, minBufferTimeMs = 250, maxBufferTimeMs) {
     if (typeof handler !== "function") EventMerger.error_handler(new Error("No valid handler function provided for EventMerger!"));

@@ -1,6 +1,6 @@
 {
   "name": "eventmergerjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Merge/coalesce bursts of logically identical events.",
   "keywords": [
     "event",
@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/materia79/EventMergerJS.git"
   },
-  "license": "PolyForm-Noncommercial-1.0.0",
+  "license": "MIT",
   "author": "Simon <simon@istaria.de>",
   "type": "commonjs",
   "main": "EventMerger.js",
